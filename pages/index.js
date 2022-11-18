@@ -1,6 +1,4 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Layout from "../layout/Layout.js"
+import Layout from '../layout/layout'
 import useQuiosco from'../hooks/useQuiosco'
 import Producto from '../components/Producto'
 
