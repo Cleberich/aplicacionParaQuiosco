@@ -31,10 +31,10 @@ export default function ModalProducto() {
     }
     
   return (
-    <div className="p-4 rounded-md flex">
+    <div className="p-4 rounded-md sm:block md:flex mb-3">
         <div className="md:w-1/3">
             <Image 
-            className="w-full"
+            className="sm:w-48 md:w-96"
             src={`/assets/img/${imagen}.jpg`}
             alt={nombre}
             width={550}

@@ -15,7 +15,7 @@ export default function Home() {
    >
    <div className=''>
    <h1 className='text-3xl font-bold mt-5'>{categoriaActual?.nombre}</h1>
-   <p className='mt-5 text-xl'>Elige y personaliza tu pedido a continuación</p>
+   <p className='mt-1 text-md'>Elige y personaliza tu pedido a continuación</p>
    <div className='grid gap-4 menu sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
    {categoriaActual?.productos?.map(producto =>(
     <Producto

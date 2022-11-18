@@ -10,10 +10,10 @@ export default function Sidebar() {
   return (
     <div className="">
       <div className="flex items-center">
-        <Link href={'/'}><Image className="ml-10 logo" src='/assets/img/logo.svg' width={200} height={200} alt="logo"/></Link>
+        <Link className="logo" href='/'><Image  src='/assets/img/logo.svg' width={200} height={200} alt="logo"/></Link>
       </div>
-      <div>
-          <nav className="mt-10 categorias">
+      <div className="">
+          <nav className="mt-10 categorias ">
             {categorias.map(categoria =>(
               <Cat
               key={categoria.id}
