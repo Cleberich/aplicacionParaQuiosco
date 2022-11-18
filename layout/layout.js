@@ -29,7 +29,7 @@ export default function Layout({children, pagina}) {
         <meta name="description" content="Quiosco cafeteria"/>
     </Head>
     <div className="md:flex">
-        <aside className="md:flex sm:w-1/1 md:w-4/12 xl:w-1/4 2xl:w-1/5 bg-red-600 " >
+        <aside className="md:flex sm:w-1/1 md:w-4/12 xl:w-1/4 2xl:w-1/5 bg-red-700 " >
             <Sidebar/>
 
         </aside>
