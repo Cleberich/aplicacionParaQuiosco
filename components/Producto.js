@@ -9,10 +9,10 @@ export default function Producto({producto}) {
 
    
   return (
-    <div className="mt-5 border p-3 shadow-lg ml-auto mr-auto bg-white ">
+    <div className="mt-5 border p-3 shadow-lg ml-auto mr-auto bg-white imagen">
         <Image className=""src={`/assets/img/${imagen}.jpg`} alt={nombre} width={250} height={300}/>
        <div>
-        <h1 className="font-bold">{nombre}</h1>
+        <h1 className="font-bold nombre mt-3">{nombre}</h1>
         <h2>${precio}</h2>
        </div>   
     <button

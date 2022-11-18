@@ -9,7 +9,7 @@ export default function Resumen() {
   return (
     <Layout>
        <div >
-       <h1 className="text-2xl font-bold">Resumen</h1>
+       <h1 className="text-2xl font-bol mt-5">Resumen</h1>
         <p className="text-xl">Revisa tu pedido</p>
         <div >
           {pedido.length == 0 ? (
