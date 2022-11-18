@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Layout from '../layout/Layout'
+import Layout from "../layout/Layout"
 import useQuiosco from'../hooks/useQuiosco'
 import Producto from '../components/Producto'
 
