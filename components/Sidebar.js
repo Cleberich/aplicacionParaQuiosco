@@ -1,5 +1,4 @@
 import Image from "next/image"
-import useContext from 'react'
 import  useQuiosco  from '../hooks/useQuiosco'
 import Cat from './Cat'
 
