@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Modal from "react-modal"
 import ModalProducto from "../components/ModalProducto"
-import Sidebar from "../components/sidebar"
+import Sidebar from "../components/Sidebar"
 import useQuiosco from "../hooks/useQuiosco"
 import { ToastContainer } from "react-toastify"
 import Pasos from "../components/Pasos"
